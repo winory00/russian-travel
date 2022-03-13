@@ -1,0 +1,11 @@
+@font-face {
+    src: url(../russian-travel/static/Inter-Regular.ttf) format('truetype');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../russian-travel/static/Inter-Black.ttf) format('truetype');
+    font-family: 'Inter';
+    font-weight: 900;
+}

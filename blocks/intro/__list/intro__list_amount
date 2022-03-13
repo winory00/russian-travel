@@ -1,0 +1,9 @@
+.intro__list_amount {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; 
+    font-family: 'Inter';
+    padding: 0;
+}

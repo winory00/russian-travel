@@ -1,0 +1,14 @@
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+    max-width: 720px;
+    min-height: 200px;
+    text-align: center;
+    margin: 56px auto 0;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    
+}

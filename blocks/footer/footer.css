@@ -1,0 +1,11 @@
+.footer {
+    margin: 92px auto 24px;
+    box-sizing: border-box;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    max-width: 1184px;
+    min-height: 18px;
+    position: relative;
+
+}
