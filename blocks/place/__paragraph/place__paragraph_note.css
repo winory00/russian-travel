@@ -1,11 +1,11 @@
-.place__paragraph_note {
+.place__note {
     margin-top: 0;
     margin-bottom: 26px;
     font-family: 'Inter';
 }
 
 @media (max-width: 768px) {
-    .place__paragraph_note {
+    .place__note {
        margin-bottom: 25px;
        
    } 
