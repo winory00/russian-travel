@@ -3,21 +3,21 @@
     height: 213px;
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
     .gallery__photo {
         width: 300px;
         height: 225px;
     }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
     .gallery__photo {
         width: 352px;
         height: 264px;
     }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .gallery__photo {
         width: 288px;
         height: 216px;

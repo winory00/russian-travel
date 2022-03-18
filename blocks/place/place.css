@@ -24,7 +24,7 @@
 
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
     .place {
         max-width: 928px;
         max-height: 564px;
@@ -43,7 +43,7 @@
     }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
     .place {
         max-width: 720px;
         grid-gap: 48px 28px;
@@ -82,7 +82,7 @@
 
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .place {
         grid-template-areas:
             "title"

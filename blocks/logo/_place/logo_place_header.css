@@ -3,7 +3,7 @@
     height: 52px;
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .logo_place_header {
         width: 142px;
         height: 42px;

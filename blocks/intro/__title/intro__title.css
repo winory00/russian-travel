@@ -11,7 +11,7 @@
     
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .intro__title {
         max-width: 288px;
         max-height: 70px;
