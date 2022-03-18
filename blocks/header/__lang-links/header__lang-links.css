@@ -1,9 +1,7 @@
 .header__lang-links {
     display: flex;
     align-items: flex-end;
-    /* border: 1px red solid;  */
 }
-
-@media (max-width : 1024px) {
-    
+.header__lang-links:hover {
+    opacity: 0.5;
 }

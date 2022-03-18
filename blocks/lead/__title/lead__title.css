@@ -10,11 +10,21 @@
     font-family: 'Inter';
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    
+
 }
 
 @media (max-width : 1024px) {
     .lead__title {
         margin-top: 48px;
+    }
+}
+
+@media (max-width : 320px) {
+    .lead__title {
+        max-width: 288px;
+        min-height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 0;
     }
 }

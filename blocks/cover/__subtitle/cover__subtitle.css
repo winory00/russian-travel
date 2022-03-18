@@ -6,7 +6,7 @@
     min-height: 66px;
     color: #fff;
     text-align: center;
-    z-index: 3; 
+    z-index: 3;
     margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +14,13 @@
     font-family: 'Inter';
 }
 
-@media (max-width : 1024px) {
-    
+@media (max-width : 320px) {
+    .cover__subtitle {
+        max-width: 288px;
+        max-height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+
 }

@@ -6,6 +6,12 @@
     margin: 0;
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 320px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        /* padding: 0;
+        margin: 0 auto 48px 16px; */
+    }
     
 }

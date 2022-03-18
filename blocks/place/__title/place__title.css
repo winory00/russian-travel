@@ -2,8 +2,6 @@
     max-width: 460px;
     max-height: 152px;
     color: #FFFFFF;
-    /* grid-column: 1;
-    grid-row: 1; */
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -31,5 +29,21 @@
 
     .place__title:nth-of-type(1) {
         max-height: 92px;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 0 16px;
+        max-width: 288px;
+        max-height: 35px;
+
+    }
+
+    .place__title:nth-of-type(1) {
+        max-height: 35px;
+        white-space: normal;
     }
 }

@@ -4,9 +4,6 @@
     font-family: 'Inter';
 }
 
-@media (max-width : 1024px) {
-    
-}
 @media (max-width : 768px) {
     .place__paragraph_note {
        margin-bottom: 25px;

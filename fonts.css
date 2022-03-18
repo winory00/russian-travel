@@ -9,18 +9,9 @@
     font-family: 'Inter';
     font-weight: 900;
 }
-@font-face {
-    src: url(../russian-travel/static/Inter-Medium.ttf) format('truetype');
-    font-family: 'Inter';
-    font-weight: 500; 
-}
+
 @font-face {
     src: url(../russian-travel/static/Inter-Bold.ttf) format('truetype');
     font-family: 'Inter';
     font-weight: 700; 
 }
-/* @font-face {
-    font-family: 'Inter';
-    src: url(./static/Inter-Light.ttf) format('truetype');
-    font-weight: normal;
-} */

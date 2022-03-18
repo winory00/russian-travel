@@ -23,8 +23,18 @@
 
 @media (max-width : 768px) {
     .cover__title {
-
         margin-top: 115px;
     }
 
+}
+
+@media (max-width : 320px) {
+    .cover__title {
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 33px;
+        white-space: pre;
+    }
 }

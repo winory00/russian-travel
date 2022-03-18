@@ -18,3 +18,10 @@
         height: 480px;
     }
 }
+@media (max-width : 320px) {
+    .lead__image {
+        width: 320px;
+        height: 200px;
+        margin: 0;
+    }
+}

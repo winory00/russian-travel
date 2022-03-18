@@ -5,15 +5,24 @@
 }
 
 @media (max-width : 1024px) {
-.places {
-    max-width: 928px;
+    .places {
+        max-width: 928px;
+    }
 }
-}
-@media (max-width : 768px) { 
+
+@media (max-width : 768px) {
     .places {
         max-width: 720px;
         margin-top: 88px;
-        
+
     }
-   
+
+}
+
+@media (max-width : 320px) {
+    .places {
+        margin-top: 65px;
+        max-width: 320px;
+        max-height: 5177px;
+    }
 }

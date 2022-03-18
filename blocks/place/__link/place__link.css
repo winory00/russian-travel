@@ -6,10 +6,6 @@
     font-family: 'Inter';
     align-self: start;
 }
-
-@media (max-width : 1024px) {
-    
-}
-@media (max-width : 768px) {
-   
+.place__link:hover {
+    opacity: 0.5;
 }
