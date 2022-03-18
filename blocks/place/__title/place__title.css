@@ -2,12 +2,34 @@
     max-width: 460px;
     max-height: 152px;
     color: #FFFFFF;
-    grid-column: 1;
-    grid-row: 1;
+    /* grid-column: 1;
+    grid-row: 1; */
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
     padding: 0;
     font-family: 'Inter';
+    grid-area: title;
+
+}
+
+@media (max-width : 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
+
+@media (max-width : 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        white-space: pre;
+        max-width: 340px;
+        max-height: 46px;
+    }
+
+    .place__title:nth-of-type(1) {
+        max-height: 92px;
+    }
 }

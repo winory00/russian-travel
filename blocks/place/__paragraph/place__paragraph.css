@@ -1,7 +1,5 @@
 .place__paragraph {
     color: #FFFFFF;
-    grid-column: 2;
-    grid-row: 2/3;
     max-width: 484px;
     font-weight: normal;
     font-size: 18px;
@@ -9,4 +7,14 @@
     margin-top: 0;
     padding-top: 0;
     text-align: left;
+    grid-area: "paragraph";
+    box-sizing: border-box;
+}
+
+@media (max-width : 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
 }

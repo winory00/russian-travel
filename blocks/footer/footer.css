@@ -9,3 +9,14 @@
     position: relative;
 
 }
+
+@media (max-width : 1024px) {
+  .footer {
+   max-width: 928px;}
+}
+@media (max-width : 768px) {
+  .footer {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}

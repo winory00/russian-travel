@@ -2,8 +2,19 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    height: 52px;
+    max-height: 52px;
     margin: 28px auto 0;
     box-sizing: border-box;
+   
+}
 
+@media (max-width : 1024px) {
+   .header {
+     max-width: 928px;}
+}
+
+@media (max-width : 768px) {
+  .header {
+    max-width: 720px;
+  }
 }

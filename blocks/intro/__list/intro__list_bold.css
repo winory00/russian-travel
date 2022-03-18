@@ -1,10 +1,12 @@
 .intro__list_bold {
     font-size: 12px;
     line-height: 18px;
-    font-weight: bold;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
     font-family: 'Inter';
     padding: 0;
 
+}
+
+@media (max-width : 1024px) {
+    
 }

@@ -1,8 +1,21 @@
 .place__website {
     display: flex;
     flex-direction: column;
-    grid-column: 2;
-    grid-row: 1;
-    align-self: end;
-    justify-self: start;
+    align-self: end; 
+    justify-self: start; 
+    grid-area: website;
+
+}
+
+@media (max-width : 1024px) {
+    
+}
+@media (max-width : 768px) {
+    .place__website {
+        width: 352px;
+        max-height: 46px;
+        /* margin: 0;
+        padding: 0; */
+        border: 1px red solid;
+    }
 }

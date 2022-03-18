@@ -12,3 +12,9 @@
     -webkit-font-smoothing: antialiased;
     
 }
+
+@media (max-width : 1024px) {
+    .lead__title {
+        margin-top: 48px;
+    }
+}

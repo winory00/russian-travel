@@ -4,3 +4,15 @@
     margin: 92px auto 0 148px;
 
 }
+
+@media (max-width : 1024px) {
+    .intro {
+        margin: 92px auto 0 48px; 
+    }
+    
+}
+@media (max-width : 768px) {
+    .intro {
+        margin: 88px auto 0 24px; 
+    }
+}

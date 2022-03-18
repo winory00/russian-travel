@@ -2,9 +2,32 @@
     margin: 92px auto 0;
     padding: 0;
     max-width: 1184px;
-    max-height: 671;
+    max-height: 671px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px 16px;
+}
+
+@media (max-width : 1024px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 14px 14px;
+        max-width: 928px;
+        max-height: 942px;
+    }
+}
+
+
+@media (max-width : 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        max-width: 720px;
+        max-height: 1664px;
+        margin-top: 88px;
+        grid-gap: 16px 16px;
+       
+    }
 }
