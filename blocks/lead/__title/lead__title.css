@@ -13,13 +13,13 @@
 
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
     .lead__title {
         margin-top: 48px;
     }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .lead__title {
         max-width: 288px;
         min-height: 88px;
