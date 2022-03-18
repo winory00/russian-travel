@@ -11,19 +11,19 @@
     font-family: 'Inter';
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
     .lead__caption {
         margin: 8px auto 0 48px;
     }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
     .lead__caption {
         margin: 8px auto 0 24px;
 
     }
 }
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .lead__caption {
         margin: 8px auto 0 16px;
     }
