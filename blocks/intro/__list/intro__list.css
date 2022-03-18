@@ -5,12 +5,11 @@
     max-width: 690px;
     max-height: 90px;
     margin-top: 33px;
-    margin-bottom: 0
-    ;
+    margin-bottom: 0;
 
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
     .intro__list {
     max-width: 288px;
     max-height: 90px;
