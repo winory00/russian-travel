@@ -1,0 +1,6 @@
+.header__lang-link_underline {
+text-decoration: none;
+}
+.header__lang-link_underline:focus {
+    text-decoration: underline;
+}

@@ -1,25 +1,26 @@
 .gallery__photo {
-    width: 284px;
-    height: 213px;
+    max-width: 284px;
+    max-height: 213px;
 }
 
 @media (max-width: 1024px) {
     .gallery__photo {
-        width: 300px;
-        height: 225px;
+        max-width: 300px;
+        max-height: 225px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+
     .gallery__photo {
-        width: 352px;
-        height: 264px;
+        max-width: 352px;
+        max-height: 264px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .gallery__photo {
-        width: 288px;
-        height: 216px;
+        max-width: 288px;
+        max-height: 216px;
     }
 }

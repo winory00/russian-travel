@@ -11,18 +11,20 @@
 <body class="page">
     <header class="header">
         <img class="logo logo_place_header" src="./images/sprint-3-images/header-logo.svg" alt="Карта России">
-        <nav class="header__lang-links">
-            <a class="header__lang-link" href="#">Ru</a>
-            <a class="header__lang-link" href="#">En</a>
-        </nav>
+        <div class="header__lang-links">
+            <a class="header__lang-link header__lang-link_underline" href="#">Ru</a>
+            <a class="header__lang-link header__lang-link_underline" href="#">En</a>
+        </div>
     </header>
     <main class="main">
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
-            <p class="lead__subtitle">Настоящая страна не в выпусках
-                новостей, а здесь.</p>
-            <img class="lead__image" src="./images/sprint-3-images/lead-polka.jpg" alt="Полка в поезде">
-            <p class="lead__caption">ваша полка — верхняя</p>
+             <p class="lead__subtitle">Настоящая страна не в выпусках
+                новостей, а здесь.</p> 
+                <div class="lead__block-image">
+            <img class="lead__image" src="./images/sprint-3-images/lead-polka.jpg" alt="Полка в поезде"> 
+             <p class="lead__caption">ваша полка — верхняя</p>
+                </div>
         </section>
         <section class="intro">
             <h1 class="intro__title">Чего мы там не видели?</h1>
@@ -171,7 +173,7 @@
         <section class="cover">
             <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
                 <h2 class="cover__title">До Байкала
-«на собаках»</h2>
+ «на&nbsp;собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</p>
             </a>
@@ -187,9 +189,9 @@
                 <li class="footer__link">Путешествия</li>
             </ul>
         </nav>
-        <nav class="footer__copyright">
+        <p class="footer__copyright">
             © 2022. Марина Козлова
-        </nav>
+        </p>
     </footer>
 </body>
 

@@ -1,17 +1,17 @@
 @font-face {
-    src: url(../russian-travel/static/Inter-Regular.ttf) format('truetype');
+    src: url(./font/Inter-Regular.woff2) format('woff2');
     font-family: 'Inter';
     font-weight: 400;
 }
 
 @font-face {
-    src: url(../russian-travel/static/Inter-Black.ttf) format('truetype');
+    src: url(./font/Inter-Black.woff2) format('woff2');
     font-family: 'Inter';
     font-weight: 900;
 }
 
 @font-face {
-    src: url(../russian-travel/static/Inter-Bold.ttf) format('truetype');
+    src: url(./font/Inter-Bold.woff2) format('woff2');
     font-family: 'Inter';
     font-weight: 700; 
 }
